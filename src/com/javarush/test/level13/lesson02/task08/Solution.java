@@ -19,7 +19,7 @@ public class Solution
         public boolean isAlive();
     }
 
-    interface Presidentable extends Person
+    interface Presentable extends Person
     {
 
     }
