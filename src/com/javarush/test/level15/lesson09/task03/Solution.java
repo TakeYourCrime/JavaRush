@@ -14,21 +14,21 @@ StringVar с типом String
 
 public class Solution {
 
-    public static int intVar;
-    public static double doubleVar;
-    public static Double DoubleVar;
-    public static boolean booleanVar;
-    public static Object ObjectVar;
-    public static Exception ExceptionVar;
-    public static String StringVar;
+    public int intVar;
+    public double doubleVar;
+    public Double DoubleVar;
+    public boolean booleanVar;
+    public Object ObjectVar;
+    public Exception ExceptionVar;
+    public String StringVar;
 
     public static void main(String[] args) {
-        System.out.println(intVar);
-        System.out.println(doubleVar);
-        System.out.println(DoubleVar);
-        System.out.println(booleanVar);
-        System.out.println(ObjectVar);
-        System.out.println(ExceptionVar);
-        System.out.println(StringVar);
+        System.out.println(new Solution().intVar);
+        System.out.println(new Solution().doubleVar);
+        System.out.println(new Solution().DoubleVar);
+        System.out.println(new Solution().booleanVar);
+        System.out.println(new Solution().ObjectVar);
+        System.out.println(new Solution().ExceptionVar);
+        System.out.println(new Solution().StringVar);
     }
 }
